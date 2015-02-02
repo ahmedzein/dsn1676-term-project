@@ -18,3 +18,102 @@ html {
     box-sizing: inherit;
 }
 
+.mons-rotation {
+    margin: 8em 0;
+    position: relative;
+}
+
+.bball {
+    height: 400px;
+    width: 400px;
+}
+
+/*
+.bball:target .bupkus {
+    transform: rotate(360deg);
+    object-position: center;
+}
+*/
+.bupkus {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: -100px;
+    animation: move 5s linear infinite;
+    transform-origin: center 350px;
+}
+
+@keyframes move {
+    
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+
+.void {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: -100px;
+    animation: void-move 5s linear infinite;
+}
+
+@keyframes void-move {
+    
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+
+.monsters {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.button-one {
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    width: 8em;
+    line-height: 8em;
+    transition: all 1s linear;
+}
+
+.button-two {
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    width: 8em;
+    line-height: 8em;
+    transition: all 1s linear;
+}
+
+.button-one:hover {
+    background-color: purple;   
+}
+
+.button-two:hover {
+    background-color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
