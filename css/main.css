@@ -34,7 +34,7 @@ html {
     object-position: center;
 }
 */
-.bupkus {
+.bukus {
     height: 100px;
     width: 100px;
     position: absolute;
@@ -56,16 +56,60 @@ html {
     
 }
 
+.bupkus {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: calc(50% - 250px);
+    animation: mons-move 5s linear infinite;
+}
+
+.balllogo {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 300px);
+    bottom: 150px;
+    animation: mons-move 5s linear infinite;
+}
+
+.nada {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(45% - 200px);
+    animation: mons-move 5s linear infinite;
+}
+
+.null {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(45% - 200px);
+    bottom: -10px;
+    animation: mons-move 5s linear infinite;
+}
+
+
 .void {
     height: 100px;
     width: 100px;
     position: absolute;
-    left: calc(50% - 50px);
-    top: -100px;
-    animation: void-move 5s linear infinite;
+    right: calc(50% - 250px);
+    bottom: -10px;
+    animation: mons-move 5s linear infinite;
 }
 
-@keyframes void-move {
+.zilch {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(50% + 200px);
+    bottom: 150px;
+    animation: mons-move 5s linear infinite;
+}
+
+@keyframes mons-move {
     
     from {
         transform: rotate(0deg);
@@ -116,4 +160,23 @@ a {
 
 main {
     text-align: center;
+}
+
+.ballcourt {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/ball-court.svg);
+    animation: ballcourt 2s linear infinite;
+}
+
+@keyframes ballcourt {
+    
+    0% {
+        transform: scale(1,1);
+    }
+    
+    100% {
+        transform: scale(1.2,1.2);
+    }
+    
 }
