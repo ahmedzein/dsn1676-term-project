@@ -19,28 +19,33 @@ html {
 }
 
 .mons-rotation {
-    xmargin: 8em 0;
     position: relative;
 }
 
 .balllogo {
     height: 400px;
     width: 400px;
+    position: relative;
+    bottom: -150px;
 }
 
 .bupkus {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: absolute;
     right: calc(50% - 250px);
+    bottom: -180px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 .smallbupkus {
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
     position: absolute;
-    right: calc(50% - 250px);
+    right: calc(55% - 250px);
+    bottom: -160px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
@@ -48,86 +53,96 @@ html {
     height: 100px;
     width: 100px;
     position: absolute;
-    left: calc(50% - 300px);
-    bottom: 150px;
+    left: calc(55% - 300px);
+    bottom: 160px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 .nada {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     position: absolute;
-    left: calc(45% - 200px);
+    left: calc(50% - 200px);
+    bottom: -180px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 .smallnada {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: absolute;
-    left: calc(45% - 200px);
+    left: calc(50% - 200px);
+    bottom: -150px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 
 .null {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: absolute;
-    left: calc(45% - 200px);
+    left: calc(45% - 250px);
     bottom: -10px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 .smallnull {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: absolute;
-    left: calc(45% - 200px);
+    left: calc(45% - 250px);
     bottom: -10px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 
 .void {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: absolute;
-    right: calc(50% - 250px);
+    right: calc(50% - 300px);
     bottom: -10px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 .smallvoid {
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
     position: absolute;
-    right: calc(50% - 250px);
+    right: calc(50% - 300px);
     bottom: -10px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 
 .zilch {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: absolute;
-    left: calc(50% + 200px);
+    left: calc(40% + 200px);
     bottom: 150px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
 .smallzilch {
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
     position: absolute;
-    left: calc(50% + 200px);
+    left: calc(40% + 200px);
     bottom: 150px;
+    -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
-
-@keyframes mons-move {
+@-webkit-keyframes mons-move {
     
     from {
         transform: rotate(0deg);
@@ -139,10 +154,16 @@ html {
     
 }
 
-.monsters {
-    height: 100px;
-    width: 100px;
-    position: absolute;
+@keyframes mons-move {
+    
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+    
 }
 
 .button-one {
@@ -164,7 +185,7 @@ html {
 }
 
 .button-one:hover {
-    background-color: purple;   
+    background-color: #6600cc;   
 }
 
 .button-two:hover {
@@ -176,16 +197,26 @@ a {
     color: white;
 }
 
-main {
-    text-align: center;
-}
 
 .ballcourt {
     height: 100vh;
     width: 100%;
     background-image: url(../images/ball-court.svg);
     background-repeat: no-repeat;
-    animation: bllcourt 2s linear infinite;
+    -webkit-animation: ballcourt 2s ease-in-out infinite alternate;
+    animation: bllcourt 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes ballcourt {
+    
+    0% {
+        transform: scale(1,1);
+    }
+    
+    100% {
+        transform: scale(1.2,1.2);
+    }
+    
 }
 
 @keyframes ballcourt {
@@ -201,23 +232,50 @@ main {
 }
 
 
-
+.bupkus,
+.nada,
 .null,
-.void {
+.void,
+.zilch {
     display: block;
 }
 
-.small1,
-.small2 {
+.smallbupkus,
+.smallnada,
+.smallnull,
+.smallvoid,
+.smallzilch {
     display: none;
 }
 
+.mons-rotation:target .bupkus,
+.mons-rotation:target .nada,
 .mons-rotation:target .null,
-.mons-rotation:target .void {
+.mons-rotation:target .void,
+.mons-rotation:target .zilch {
     display: none;
 }
 
-.mons-rotation:target .small1,
-.mons-rotation:target .small2 {
+.mons-rotation:target .smallbupkus,
+.mons-rotation:target .smallnada,
+.mons-rotation:target .smallnull,
+.mons-rotation:target .smallvoid,
+.mons-rotation:target .smallzilch {
     display: block;
+}
+
+@media only screen and (min-width: 25em) {
+    
+    
+}
+
+@media only screen and (min-width: 38em) {
+    
+    
+
+}
+
+@media only screen and (min-width: 60em) {
+     
+    
 }
