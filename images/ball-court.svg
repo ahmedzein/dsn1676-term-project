@@ -1,1 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.7 327" enable-background="new 0 0 562.7 327"><style type="text/css">.st0{fill:none;} .st1{fill:#C49A6C;} .st2{fill:#A97C50;} .st3{fill:url(#New_Pattern);stroke:#FFFFFF;stroke-miterlimit:10;} .st4{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;} .st5{fill:none;stroke:#FFFFFF;stroke-width:0.9848;stroke-miterlimit:10;} .st6{fill:none;stroke:#FFFFFF;stroke-width:0.9848;stroke-miterlimit:10;stroke-dasharray:12;}</style><pattern x="-86.9" y="-131.7" width="92.5" height="69.7" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="0 -69.7 92.5 69.7" overflow="visible"><path class="st0" d="M0-69.7h92.5v69.7h-92.5z"/><path class="st1" d="M92.5-9.3h-92.5v-4.6h92.5z"/><path class="st2" d="M92.5-4.6h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5 0h-92.5v-4.7h92.5zM92.5-23.2h-92.5v-4.7h92.5z"/><path class="st2" d="M92.5-18.5h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5-13.9h-92.5v-4.7h92.5zM92.5-37.2h-92.5v-4.6h92.5z"/><path class="st2" d="M92.5-32.5h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5-27.9h-92.5v-4.7h92.5zM92.5-51.1h-92.5v-4.7h92.5z"/><path class="st2" d="M92.5-46.4h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5-41.8h-92.5v-4.7h92.5zM92.5-65.1h-92.5v-4.6h92.5z"/><path class="st2" d="M92.5-60.4h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5-55.8h-92.5v-4.7h92.5z"/></pattern><path class="st3" d="M.5.5h561.4v326h-561.4z"/><path class="st4" d="M.5 29.8h83.3s92 39.3 92 134l-92 136h-83.3M561.9 29.8h-83.3s-92 39.3-92 134l92 136h83.3"/><path class="st4" d="M.5 111.8h113.3v104h-113.3zM15.3 146.1v36.7M19.1 163.8h-3.8"/><circle class="st4" cx="24.3" cy="163.8" r="5.3"/><path class="st5" d="M113.8 124.1c22.1 0 40 17.9 40 40s-17.9 40-40 40"/><path class="st6" d="M113.8 204.1c-22.1 0-40-17.9-40-40s17.9-40 40-40"/><path class="st4" d="M448.9 111.8h113.3v104h-113.3zM547.4 146.1v36.7M543.7 163.8h3.7"/><circle class="st4" cx="538.5" cy="163.8" r="5.3"/><path class="st5" d="M448.9 124.1c-22.1 0-40 17.9-40 40s17.9 40 40 40"/><path class="st6" d="M448.9 204.1c22.1 0 40-17.9 40-40s-17.9-40-40-40"/><path class="st5" d="M281.5 326.5v-326"/><circle class="st5" cx="280.8" cy="164.1" r="10.8"/><circle class="st5" cx="280.8" cy="164.1" r="38.2"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 562.7 327" style="enable-background:new 0 0 562.7 327;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#C49A6C;}
+	.st2{fill:#A97C50;}
+	.st3{fill:url(#New_Pattern);stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:0.9848;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:0.9848;stroke-miterlimit:10;stroke-dasharray:12;}
+</style>
+<pattern  x="-86.9" y="-131.7" width="92.5" height="69.7" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="0 -69.7 92.5 69.7" style="overflow:visible;">
+	<g>
+		<polygon class="st0" points="0,-69.7 92.5,-69.7 92.5,0 0,0 		"/>
+		<g>
+			<polygon class="st1" points="92.5,-9.3 0,-9.3 0,-13.9 92.5,-13.9 			"/>
+			<polygon class="st2" points="92.5,-4.6 0,-4.6 0,-9.3 92.5,-9.3 			"/>
+			<polygon class="st1" points="92.5,0 0,0 0,-4.7 92.5,-4.7 			"/>
+		</g>
+		<g>
+			<polygon class="st1" points="92.5,-23.2 0,-23.2 0,-27.9 92.5,-27.9 			"/>
+			<polygon class="st2" points="92.5,-18.5 0,-18.5 0,-23.2 92.5,-23.2 			"/>
+			<polygon class="st1" points="92.5,-13.9 0,-13.9 0,-18.6 92.5,-18.6 			"/>
+		</g>
+		<g>
+			<polygon class="st1" points="92.5,-37.2 0,-37.2 0,-41.8 92.5,-41.8 			"/>
+			<polygon class="st2" points="92.5,-32.5 0,-32.5 0,-37.2 92.5,-37.2 			"/>
+			<polygon class="st1" points="92.5,-27.9 0,-27.9 0,-32.6 92.5,-32.6 			"/>
+		</g>
+		<g>
+			<polygon class="st1" points="92.5,-51.1 0,-51.1 0,-55.8 92.5,-55.8 			"/>
+			<polygon class="st2" points="92.5,-46.4 0,-46.4 0,-51.1 92.5,-51.1 			"/>
+			<polygon class="st1" points="92.5,-41.8 0,-41.8 0,-46.5 92.5,-46.5 			"/>
+		</g>
+		<g>
+			<polygon class="st1" points="92.5,-65.1 0,-65.1 0,-69.7 92.5,-69.7 			"/>
+			<polygon class="st2" points="92.5,-60.4 0,-60.4 0,-65.1 92.5,-65.1 			"/>
+			<polygon class="st1" points="92.5,-55.8 0,-55.8 0,-60.5 92.5,-60.5 			"/>
+		</g>
+	</g>
+</pattern>
+<rect x="0.5" y="0.5" class="st3" width="561.4" height="326"/>
+<path class="st4" d="M0.5,29.8h83.3c0,0,92,39.3,92,134s-92,136-92,136H0.5"/>
+<path class="st4" d="M561.9,29.8h-83.3c0,0-92,39.3-92,134s92,136,92,136h83.3"/>
+<rect x="0.5" y="111.8" class="st4" width="113.3" height="104"/>
+<line class="st4" x1="15.3" y1="146.1" x2="15.3" y2="182.8"/>
+<line class="st4" x1="19.1" y1="163.8" x2="15.3" y2="163.8"/>
+<circle class="st4" cx="24.3" cy="163.8" r="5.3"/>
+<path class="st5" d="M113.8,124.1c22.1,0,40,17.9,40,40s-17.9,40-40,40"/>
+<path class="st6" d="M113.8,204.1c-22.1,0-40-17.9-40-40s17.9-40,40-40"/>
+<rect x="448.9" y="111.8" class="st4" width="113.3" height="104"/>
+<line class="st4" x1="547.4" y1="146.1" x2="547.4" y2="182.8"/>
+<line class="st4" x1="543.7" y1="163.8" x2="547.4" y2="163.8"/>
+<circle class="st4" cx="538.5" cy="163.8" r="5.3"/>
+<path class="st5" d="M448.9,124.1c-22.1,0-40,17.9-40,40s17.9,40,40,40"/>
+<path class="st6" d="M448.9,204.1c22.1,0,40-17.9,40-40s-17.9-40-40-40"/>
+<line class="st5" x1="281.5" y1="326.5" x2="281.5" y2="0.5"/>
+<circle class="st5" cx="280.8" cy="164.1" r="10.8"/>
+<circle class="st5" cx="280.8" cy="164.1" r="38.2"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
