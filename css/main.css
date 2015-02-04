@@ -19,7 +19,16 @@ html {
 }
 
 .mons-rotation {
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(.3);
+    transform: translateX(-50%) scale(.3);
+}
+
+.banner {
     position: relative;
+    padding-top: 65%;
 }
 
 .balllogo {
@@ -50,8 +59,8 @@ html {
 }
 
 .bball {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     position: absolute;
     left: calc(55% - 300px);
     bottom: 160px;
@@ -84,7 +93,7 @@ html {
     height: 120px;
     width: 120px;
     position: absolute;
-    left: calc(45% - 250px);
+    left: calc(30% - 250px);
     bottom: -10px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
@@ -94,7 +103,7 @@ html {
     height: 120px;
     width: 120px;
     position: absolute;
-    left: calc(45% - 250px);
+    left: calc(30% - 250px);
     bottom: -10px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
@@ -105,7 +114,7 @@ html {
     height: 120px;
     width: 120px;
     position: absolute;
-    right: calc(50% - 300px);
+    right: calc(45% - 300px);
     bottom: -10px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
@@ -115,7 +124,7 @@ html {
     height: 130px;
     width: 130px;
     position: absolute;
-    right: calc(50% - 300px);
+    right: calc(45% - 300px);
     bottom: -10px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
@@ -170,8 +179,8 @@ html {
     background-color: blue;
     border-radius: 50%;
     display: inline-block;
-    width: 8em;
-    line-height: 8em;
+    width: 7em;
+    line-height: 7em;
     transition: all 1s linear;
 }
 
@@ -179,8 +188,8 @@ html {
     background-color: red;
     border-radius: 50%;
     display: inline-block;
-    width: 8em;
-    line-height: 8em;
+    width: 7em;
+    line-height: 7em;
     transition: all 1s linear;
 }
 
@@ -199,7 +208,10 @@ a {
 
 
 .ballcourt {
-    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
     width: 100%;
     background-image: url(../images/ball-court.svg);
     background-repeat: no-repeat;
@@ -265,17 +277,35 @@ a {
 }
 
 @media only screen and (min-width: 25em) {
-    
+    .mons-rotation {
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(.5);
+    transform: translateX(-50%) scale(.5);
+}
     
 }
 
 @media only screen and (min-width: 38em) {
-    
+    .mons-rotation {
+    position: absolute;
+    top: -130px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(.7);
+    transform: translateX(-50%) scale(.7);
+}
     
 
 }
 
 @media only screen and (min-width: 60em) {
-     
+     .mons-rotation {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
+}
     
 }
