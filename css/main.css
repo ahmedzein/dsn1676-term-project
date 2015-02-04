@@ -19,41 +19,13 @@ html {
 }
 
 .mons-rotation {
-    margin: 8em 0;
+    xmargin: 8em 0;
     position: relative;
 }
 
-.bball {
+.balllogo {
     height: 400px;
     width: 400px;
-}
-
-/*
-.bball:target .bupkus {
-    transform: rotate(360deg);
-    object-position: center;
-}
-*/
-.bukus {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    left: calc(50% - 50px);
-    top: -100px;
-    animation: move 5s linear infinite;
-    transform-origin: center 350px;
-}
-
-@keyframes move {
-    
-    from {
-        transform: rotate(0deg);
-    }
-    
-    to {
-        transform: rotate(360deg);
-    }
-    
 }
 
 .bupkus {
@@ -64,7 +36,15 @@ html {
     animation: mons-move 5s linear infinite;
 }
 
-.balllogo {
+.smallbupkus {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: calc(50% - 250px);
+    animation: mons-move 5s linear infinite;
+}
+
+.bball {
     height: 100px;
     width: 100px;
     position: absolute;
@@ -81,7 +61,25 @@ html {
     animation: mons-move 5s linear infinite;
 }
 
+.smallnada {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(45% - 200px);
+    animation: mons-move 5s linear infinite;
+}
+
+
 .null {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(45% - 200px);
+    bottom: -10px;
+    animation: mons-move 5s linear infinite;
+}
+
+.smallnull {
     height: 100px;
     width: 100px;
     position: absolute;
@@ -100,6 +98,16 @@ html {
     animation: mons-move 5s linear infinite;
 }
 
+.smallvoid {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: calc(50% - 250px);
+    bottom: -10px;
+    animation: mons-move 5s linear infinite;
+}
+
+
 .zilch {
     height: 100px;
     width: 100px;
@@ -108,6 +116,16 @@ html {
     bottom: 150px;
     animation: mons-move 5s linear infinite;
 }
+
+.smallzilch {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: calc(50% + 200px);
+    bottom: 150px;
+    animation: mons-move 5s linear infinite;
+}
+
 
 @keyframes mons-move {
     
@@ -166,7 +184,8 @@ main {
     height: 100vh;
     width: 100%;
     background-image: url(../images/ball-court.svg);
-    animation: ballcourt 2s linear infinite;
+    background-repeat: no-repeat;
+    animation: bllcourt 2s linear infinite;
 }
 
 @keyframes ballcourt {
@@ -179,4 +198,26 @@ main {
         transform: scale(1.2,1.2);
     }
     
+}
+
+
+
+.null,
+.void {
+    display: block;
+}
+
+.small1,
+.small2 {
+    display: none;
+}
+
+.mons-rotation:target .null,
+.mons-rotation:target .void {
+    display: none;
+}
+
+.mons-rotation:target .small1,
+.mons-rotation:target .small2 {
+    display: block;
 }
