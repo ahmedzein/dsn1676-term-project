@@ -31,7 +31,14 @@ html {
     padding-top: 65%;
 }
 
-.balllogo {
+.tunesquad {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: -150px;
+}
+
+.monstars {
     height: 400px;
     width: 400px;
     position: relative;
@@ -48,7 +55,7 @@ html {
     animation: mons-move 5s linear infinite;
 }
 
-.smallbupkus {
+.jordan {
     height: 130px;
     width: 130px;
     position: absolute;
@@ -78,7 +85,7 @@ html {
     animation: mons-move 5s linear infinite;
 }
 
-.smallnada {
+.lolabunny {
     height: 120px;
     width: 120px;
     position: absolute;
@@ -99,7 +106,7 @@ html {
     animation: mons-move 5s linear infinite;
 }
 
-.smallnull {
+.daffyduck {
     height: 120px;
     width: 120px;
     position: absolute;
@@ -120,9 +127,9 @@ html {
     animation: mons-move 5s linear infinite;
 }
 
-.smallvoid {
-    height: 130px;
-    width: 130px;
+.bugsbunny {
+    height: 150px;
+    width: 150px;
     position: absolute;
     right: calc(45% - 300px);
     bottom: -10px;
@@ -141,7 +148,7 @@ html {
     animation: mons-move 5s linear infinite;
 }
 
-.smallzilch {
+.tas {
     height: 130px;
     width: 130px;
     position: absolute;
@@ -243,7 +250,7 @@ a {
     
 }
 
-
+.monstars,
 .bupkus,
 .nada,
 .null,
@@ -252,11 +259,12 @@ a {
     display: block;
 }
 
-.smallbupkus,
-.smallnada,
-.smallnull,
-.smallvoid,
-.smallzilch {
+.tunesquad,
+.jordan,
+.bugsbunny,
+.daffyduck,
+.lolabunny,
+.tas {
     display: none;
 }
 
@@ -268,11 +276,11 @@ a {
     display: none;
 }
 
-.mons-rotation:target .smallbupkus,
-.mons-rotation:target .smallnada,
-.mons-rotation:target .smallnull,
-.mons-rotation:target .smallvoid,
-.mons-rotation:target .smallzilch {
+.mons-rotation:target .jordan,
+.mons-rotation:target .bugsbunny,
+.mons-rotation:target .daffyduck,
+.mons-rotation:target .lolabunny,
+.mons-rotation:target .tas {
     display: block;
 }
 
