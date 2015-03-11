@@ -35,12 +35,12 @@ html {
     height: 400px;
     width: 400px;
     position: relative;
-    bottom: -150px;
+    bottom: -200px;
 }
 
 .monstars {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     position: relative;
     bottom: -150px;
 }
@@ -60,12 +60,12 @@ html {
     width: 130px;
     position: absolute;
     right: calc(55% - 250px);
-    bottom: -160px;
+    bottom: -190px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
 
-.bball {
+/*.bball {
     height: 110px;
     width: 110px;
     position: absolute;
@@ -73,7 +73,7 @@ html {
     bottom: 160px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
-}
+}*/
 
 .nada {
     height: 150px;
@@ -90,7 +90,7 @@ html {
     width: 120px;
     position: absolute;
     left: calc(50% - 200px);
-    bottom: -150px;
+    bottom: -190px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 }
@@ -142,7 +142,8 @@ html {
     height: 120px;
     width: 120px;
     position: absolute;
-    left: calc(40% + 200px);
+    left: calc(35% + 10px);
+    top: 150px;
     bottom: 150px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
@@ -152,7 +153,8 @@ html {
     height: 130px;
     width: 130px;
     position: absolute;
-    left: calc(40% + 200px);
+    left: calc(30% + 10px);
+    top: 150px;
     bottom: 150px;
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
@@ -268,6 +270,7 @@ a {
     display: none;
 }
 
+.mons-rotation:target .monstars,
 .mons-rotation:target .bupkus,
 .mons-rotation:target .nada,
 .mons-rotation:target .null,
@@ -276,6 +279,7 @@ a {
     display: none;
 }
 
+.mons-rotation:target .tunesquad,
 .mons-rotation:target .jordan,
 .mons-rotation:target .bugsbunny,
 .mons-rotation:target .daffyduck,
