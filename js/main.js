@@ -1,6 +1,14 @@
-var $btnSpaceJam =$ ('.btn-space-jam');
-var $panel =$ ('.panel');
+var nav = document.querySelector('.panel');
 
-$btnSpaceJam.on ('click', function(){
-    $panel.toggleClass('js-panel');
-}); 
+doucment.querySelector('.btn-space-jam').addEventListener('click', function (e) {
+    e.preventDefault();
+    if(nav.getAttribute('data-state') == 'expanded') {
+        nav.setAttribute('data-state', 'collapsed');
+    this.setAttribute('data-state', 'inactive');
+    }
+    
+    else {
+        nav.setAttribute('data-state', 'expanded');
+        this.setAttribute('data-state','active');
+    }
+});

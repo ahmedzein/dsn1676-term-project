@@ -18,38 +18,60 @@ html {
     box-sizing: inherit;
 }
 
-.btn-space-jam {
-    height: 8em;
-    width: 8em;
-    background-image: url(../images/basketball.svg);
+.btn-space-jam,
+.btn-space-jam:link,
+.btn-space-jam:visited {
+    height: 15em;
+    width: 15em;
+    background-image: url(../images/space-jam.svg);
     background-repeat: no-repeat;
     border: none;
     background-color: transparent;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    
 }
     
-.panel {
+.nav {
     transform: translateY(-130%);
     text-align: right;
     overflow: hidden;
     max-height: 0;
-    -webkit-transition: all 5s ease-in-out;
-    transition: all 5s ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
 }
 
-.js-panel {
-    max-height: 10em;
+.nav[data-state='expanded'] {
+    max-height: 6em;
 }
 
-.nav {
+.nav ul {
     margin: 0;
-    padding: 0;
+    padding: 1.5rem 0;
     list-style-type: none;
-    
 }
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: inline-block;
+    font-size: 1.25em;
+    padding: .875rem 5%;
+    color: white;
+    text-decoration: none;
+}
+
+
 
 header {
-    position: absolute;
+    display: block;
     z-index: 1000;
+    width: 100%;
+    background-color: yellow;
+    position: relative;
 }
 
 .mons-rotation {
@@ -327,6 +349,15 @@ a {
 .mons-rotation:target .tas-banner {
     display: block;
 }
+
+.tas {
+    height: 130px;
+    width: 130px;
+}
+
+
+
+
 
 @media only screen and (min-width: 25em) {
     .mons-rotation {
