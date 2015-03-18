@@ -564,6 +564,7 @@ a {
 
 .btn-team {
     height: 2rem;
+    float: right;
 }
 
 @media only screen and (min-width: 25em) {
