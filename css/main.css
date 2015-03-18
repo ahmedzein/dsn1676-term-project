@@ -38,7 +38,7 @@ html {
 .panel {
     display: none;
     width: 100%;
-    background-color: black;
+    background-image: url(../images/sky2.jpg);
     text-align: center;
     color: white;
 }
@@ -79,12 +79,9 @@ html {
 
 
 
-header {
-    display: block;
-    z-index: 1000;
+.header {
+    background-image: url(../images/sky2.jpg);
     width: 100%;
-    background-color: yellow;
-    position: relative;
 }
 
 .mons-rotation {
@@ -425,7 +422,7 @@ a {
 }
 
 .lineup {
-    background-color: rgba(102,153,255,0.60);
+    background-image: url(../images/sky.jpg);
     width: 100%;
 }
 
