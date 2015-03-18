@@ -1,3 +1,5 @@
+//toggle
+
 var $btnSpaceJam = $('.btn-space-jam');
 var $panel = $('.panel');
 
@@ -5,6 +7,7 @@ $btnSpaceJam.on ('click', function (){
     $panel.animate ({height: 'toggle'});
 })
 
+//lineup of the tunesquad
 
 var $jordan =$('.jordan');
 var $bugs =$('.bugs');
@@ -36,4 +39,38 @@ $daffy.on('click', function () {
 
 $tas.on('click', function () {
     $tasStat.animate({height: 'toggle'});
+})
+
+//lineup of the monstars
+
+var $bupkus =$('.bupkus');
+var $nada =$('.nada');
+var $null =$('.null');
+var $zilch =$('.zilch');
+var $void =$('.void');
+
+var $bupkusStat =$('.bupkus-stat')
+var $nadaStat =$('.nada-stat')
+var $nullStat =$('.null-stat')
+var $zilchStat =$('.zilch-stat')
+var $voidStat =$('.void-stat')
+
+$bupkus.on('click', function () {
+    $bupkusStat.animate({height: 'toggle'});
+})
+
+$nada.on('click', function () {
+    $nadaStat.animate({height: 'toggle'});
+})
+
+$null.on('click', function () {
+    $nullStat.animate({height: 'toggle'});
+})
+
+$zilch.on('click', function () {
+    $zilchStat.animate({height: 'toggle'});
+})
+
+$void.on('click', function () {
+    $voidStat.animate({height: 'toggle'});
 })
