@@ -41,8 +41,11 @@ html {
     background-image: url(../images/sky2.jpg);
     text-align: center;
     color: white;
-    list-style-type: none;
     }
+
+.panel ul {
+     list-style-type: none;
+}
 
 /*   
 .nav {
@@ -362,165 +365,179 @@ a {
     display: block;
 }
 
+.player {
+    position: relative;
+}
 
 .jordan {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .bugs {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .lola {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .daffy {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .tas {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .jordan-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .bugs-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .lola-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .daffy-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .tas-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .bupkus {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .nada {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .null {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .zilch {
     height: 250px;
     width: auto;
-    position: absolute;
+    
 }
 
 .void {
     height: 250px;
     width: auto;
-    position: absolute;
 }
 
 .bupkus-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .nada-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .null-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .zilch-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .void-stat {
     background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    position: absolute;
     list-style-type: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
 }
 
 .bg-lineup {
@@ -538,10 +555,16 @@ a {
     width: 200%;
 }
 
-teams-wrapper {
+.js-team-lineup-inner {
+    margin-left: -100%;
 }
 
+.teams-wrapper {
+}
 
+.btn-team {
+    height: 2rem;
+}
 
 @media only screen and (min-width: 25em) {
     .mons-rotation {

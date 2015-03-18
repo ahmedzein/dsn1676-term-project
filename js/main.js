@@ -74,3 +74,13 @@ $zilch.on('click', function () {
 $void.on('click', function () {
     $voidStat.animate({height: 'toggle'});
 })
+
+
+//btn for the team switch
+
+var $btnTeam =$('.btn-team');
+var $teamLineupInner =$('.team-lineup-inner');
+
+$btnTeam.on('click', function() {
+    $teamLineupInner.toggleClass('js-team-lineup-inner')
+});

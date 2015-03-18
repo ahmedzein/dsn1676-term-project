@@ -21,8 +21,8 @@
         <div class="panel">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
                 <ul class=" giga">
-                    <li class="pad-t"><a href=""></a>Ball Court</li>
-                    <li class=""><a href=""></a>Line-ups </li>
+                    <li class="pad-t"><a href="#court">Ball Court</a></li>
+                    <li class=""><a href="#sline">Line-ups</a></li>
                 </ul>
             </div>
         </div>
@@ -30,7 +30,7 @@
 
 
     <div class="banner">
-        <div class="ballcourt"></div>
+        <div class="ballcourt" id="court"></div>
 
         <div class="mons-rotation" id="mons">
             <img class="monstars" src="images/monstars-logo.svg" alt="Monstars basketball logo">
@@ -61,15 +61,15 @@
     </div>
     
     <div class="pad-t teams-wrapper">
-        <h1 class="gutter">Starting Lineup</h1>
+        <h1 class="gutter" id="sline">Starting Lineup</h1>
 
         <div class="team-lineup bg-lineup">
 
             <div class="grid team-lineup-inner">
-                <div class="unit unit-xs-1-2">
+                <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
 <!--                Tune Squad-->
                     <div class="grid pad-t-2">
-                       <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                       <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="jordan island-1-2" src="images/jordan.svg" alt="Michael Jordan">
                             <ul class="jordan-stat">
                                 <li>Royal Airness</li>
@@ -79,17 +79,17 @@
                             </ul>
                         </div>
 
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="bugs island-1-2" src="images/bugs-bunny.svg" alt="Bugs Bunny">
                             <ul class="bugs-stat">
                                 <li>Doctor of Delight</li>
-                                <li>Bugs Bunny (Co-Captain)</li>
-                                <li>PG (point guard)</li>
-                                <li>3 ft, 4 ft if you include the ears </li>
+                                <li>Name: Bugs Bunny (Co-Captain)</li>
+                                <li>Position: PG (point guard)</li>
+                                <li>Height: 3 ft, 4 ft if you include the ears </li>
                             </ul>
                         </div>
 
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="daffy island-1-2" src="images/daffy.svg" alt="Daffy Duck">
                             <ul class="daffy-stat">
                                 <li>The Quackster of the Court</li>
@@ -99,7 +99,7 @@
                             </ul>
                         </div>
 
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="lola island-1-2" src="images/lola-bunny.svg" alt="Lola Bunny">
                             <ul class="lola-stat">
                                 <li>The Heartthrob of the Hoops</li>
@@ -109,7 +109,7 @@
                             </ul>
                         </div>
 
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="tas island-1-2" src="images/tas.svg" alt="Tasmanian Devil">
                             <ul class="tas-stat">
                                 <li>The wounder from down under</li>
@@ -122,10 +122,10 @@
 
                 </div>
 
-                <div class="unit unit-xs-1-2">
+                <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2 pad-t-2">
 <!--                Monstars-->
                     <div class="grid">
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="bupkus island-1-2" src="images/bupkus.svg" alt="bupkus monster">
                             <ul class="bupkus-stat">
                                 <li>Name: Bupkus</li>
@@ -134,7 +134,7 @@
                                 <li>NBA Power: Larry Johnson</li>
                             </ul>
                         </div>
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">    
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">    
                             <img class="nada island-1-2" src="images/nada.svg" alt="nada monster">
                             <ul class="nada-stat">
                                 <li>Name: Nada</li>
@@ -143,7 +143,7 @@
                                 <li>NBA Power: Muggsy Bogues</li>
                             </ul>
                         </div>    
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="null island-1-2" src="images/null.svg" alt="null monster">
                             <ul class="null-stat">
                                 <li>Name: Null</li>
@@ -153,7 +153,7 @@
                             </ul>
                         </div>
 
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="void island-1-2" src="images/void.svg" alt="void monster">
                             <ul class="void-stat">
                                 <li>Name: Void</li>
@@ -163,7 +163,7 @@
                             </ul>
                         </div>
 
-                        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
+                        <div class="player unit unit-xs-1 unit-s-1-2 unit-m-1-5 unit-l-1-5 unit-xl-1-5">
                             <img class="zilch island-1-2" src="images/zilch.svg" alt="zilch monster">
                             <ul class="zilch-stat">
                                 <li>Name: Zilch (captain)</li>
@@ -177,6 +177,10 @@
                 </div>
             </div>
         </div>
+    </div>
+    
+    <div>
+        <button class="btn-team">Other Team</button>
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
