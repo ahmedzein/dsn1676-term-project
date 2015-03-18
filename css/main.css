@@ -41,7 +41,8 @@ html {
     background-image: url(../images/sky2.jpg);
     text-align: center;
     color: white;
-}
+    list-style-type: none;
+    }
 
 /*   
 .nav {
@@ -235,11 +236,11 @@ body {
 @-webkit-keyframes mons-move {
     
     from {
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
     
     to {
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
     
 }
@@ -304,11 +305,11 @@ a {
 @-webkit-keyframes ballcourt {
     
     0% {
-        transform: scale(1,1);
+        -webkit-transform: scale(1,1);
     }
     
     100% {
-        transform: scale(1.2,1.2);
+        -webkit-transform: scale(1.2,1.2);
     }
     
 }
@@ -361,64 +362,165 @@ a {
     display: block;
 }
 
-.lineup-face {
-    height: 250px;
-    width: auto;
-}
 
 .jordan {
     height: 250px;
     width: auto;
+    position: absolute;
 }
 
 .bugs {
     height: 250px;
     width: auto;
+    position: absolute;
 }
 
 .lola {
     height: 250px;
     width: auto;
+    position: absolute;
 }
 
 .daffy {
     height: 250px;
     width: auto;
+    position: absolute;
 }
 
 .tas {
     height: 250px;
     width: auto;
+    position: absolute;
 }
 
 .jordan-stat {
-    background-color: blue;
+    background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
 }
 
 .bugs-stat {
-    background-color: blue;
+    background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
 }
 
 .lola-stat {
-    background-color: blue;
+    background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
 }
 
 .daffy-stat {
-    background-color: blue;
+    background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
 }
 
 .tas-stat {
-    background-color: blue;
+    background-color: rgba(102,153,255,0.40);
     color: white;
     display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
+}
+
+.bupkus {
+    height: 250px;
+    width: auto;
+    position: absolute;
+}
+
+.nada {
+    height: 250px;
+    width: auto;
+    position: absolute;
+}
+
+.null {
+    height: 250px;
+    width: auto;
+    position: absolute;
+}
+
+.zilch {
+    height: 250px;
+    width: auto;
+    position: absolute;
+}
+
+.void {
+    height: 250px;
+    width: auto;
+    position: absolute;
+}
+
+.bupkus-stat {
+    background-color: rgba(102,153,255,0.40);
+    color: white;
+    display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
+}
+
+.nada-stat {
+    background-color: rgba(102,153,255,0.40);
+    color: white;
+    display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
+}
+
+.null-stat {
+    background-color: rgba(102,153,255,0.40);
+    color: white;
+    display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
+}
+
+.zilch-stat {
+    background-color: rgba(102,153,255,0.40);
+    color: white;
+    display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
+}
+
+.void-stat {
+    background-color: rgba(102,153,255,0.40);
+    color: white;
+    display: none;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
 }
 
 .lineup {
@@ -426,10 +528,16 @@ a {
     width: 100%;
 }
 
-.zilch {
-    height: 200px;
-    background-color: rgba(102,153,255,0.4);
+
+
+.team-lineup {
+    overflow: hidden;
 }
+
+.team-lineup-inner {
+    width: 200%;
+}
+
 
 
 
