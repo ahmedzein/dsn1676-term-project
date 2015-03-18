@@ -523,7 +523,7 @@ a {
     list-style-type: none;
 }
 
-.lineup-bg {
+.bg-lineup {
     background-image: url(../images/sky.jpg);
     width: 100%;
 }
@@ -538,6 +538,8 @@ a {
     width: 200%;
 }
 
+teams-wrapper {
+}
 
 
 
