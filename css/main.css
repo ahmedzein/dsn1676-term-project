@@ -284,7 +284,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration-line: none;
     color: white;
 }
 
@@ -523,7 +523,7 @@ a {
     list-style-type: none;
 }
 
-.lineup {
+.lineup-bg {
     background-image: url(../images/sky.jpg);
     width: 100%;
 }
