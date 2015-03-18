@@ -18,21 +18,32 @@ html {
     box-sizing: inherit;
 }
 
-.btn-space-jam,
-.btn-space-jam:link,
-.btn-space-jam:visited {
-    height: 15em;
-    width: 15em;
+.btn-space-jam {
+    height: 8em;
+    width: 8em;
+    left: 30%;
     background-image: url(../images/space-jam.svg);
     background-repeat: no-repeat;
     border: none;
     background-color: transparent;
-    overflow: hidden;
-    position: absolute;
+    position: relative;
     white-space: nowrap;
     
 }
-    
+
+.title {
+    color: white;
+}
+
+.panel {
+    display: none;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+/*   
 .nav {
     transform: translateY(-130%);
     text-align: right;
@@ -44,7 +55,8 @@ html {
     transition: all 250ms ease-in-out;
 }
 
-.nav[data-state='expanded'] {
+
+.nav {
     max-height: 6em;
 }
 
@@ -63,6 +75,7 @@ html {
     color: white;
     text-decoration: none;
 }
+*/
 
 
 
@@ -282,6 +295,7 @@ a {
     top: 0;
     left: 0;
     position: absolute;
+    overflow: visible;   
     height: 100%;
     width: 100%;
     background-image: url(../images/ball-court.svg);
@@ -350,12 +364,75 @@ a {
     display: block;
 }
 
-.tas {
-    height: 130px;
-    width: 130px;
+.lineup-face {
+    height: 250px;
+    width: auto;
 }
 
+.jordan {
+    height: 250px;
+    width: auto;
+}
 
+.bugs {
+    height: 250px;
+    width: auto;
+}
+
+.lola {
+    height: 250px;
+    width: auto;
+}
+
+.daffy {
+    height: 250px;
+    width: auto;
+}
+
+.tas {
+    height: 250px;
+    width: auto;
+}
+
+.jordan-stat {
+    background-color: blue;
+    color: white;
+    display: none;
+}
+
+.bugs-stat {
+    background-color: blue;
+    color: white;
+    display: none;
+}
+
+.lola-stat {
+    background-color: blue;
+    color: white;
+    display: none;
+}
+
+.daffy-stat {
+    background-color: blue;
+    color: white;
+    display: none;
+}
+
+.tas-stat {
+    background-color: blue;
+    color: white;
+    display: none;
+}
+
+.lineup {
+    background-color: rgba(102,153,255,0.60);
+    width: 100%;
+}
+
+.zilch {
+    height: 200px;
+    background-color: rgba(102,153,255,0.4);
+}
 
 
 
