@@ -563,8 +563,12 @@ a {
 }
 
 .btn-team {
-    height: 2rem;
+    height: 3rem;
     float: right;
+    border: none;
+    background-image: url(../images/sky2.jpg);
+    background-color: transparent;
+    color: white;
 }
 
 @media only screen and (min-width: 25em) {
