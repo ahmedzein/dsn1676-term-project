@@ -109,15 +109,20 @@ body {
     height: 110px;
     width: 110px;
     position: absolute;
-    left: calc(35% - 10px);
+    left: calc(40% - 10px);
     bottom: 150px;
     top: 700px;
-    background-image: url(../images/basketball.svg);
+    background-image: url(../images/basketball-arrow.svg);
     background-repeat: no-repeat;
 /*
     -webkit-animation: mons-move 5s linear infinite;
     animation: mons-move 5s linear infinite;
 */
+}
+
+.bball:hover {
+    background-image: url(../images/basketball.svg);
+    transition: all 1s linear;
 }
 
 .nada-banner {
