@@ -84,3 +84,16 @@ var $teamLineupInner =$('.team-lineup-inner');
 $btnTeam.on('click', function() {
     $teamLineupInner.toggleClass('js-team-lineup-inner')
 });
+
+
+// scrolling effects
+
+$('.panel').localScroll();
+$('.bball').localScroll();
+
+
+
+
+
+
+
