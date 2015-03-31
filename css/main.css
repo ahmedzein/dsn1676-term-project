@@ -109,15 +109,12 @@ body {
     height: 110px;
     width: 110px;
     position: absolute;
+    display: block;
     left: calc(40% - 10px);
     bottom: 150px;
     top: 700px;
     background-image: url(../images/basketball-arrow.svg);
     background-repeat: no-repeat;
-/*
-    -webkit-animation: mons-move 5s linear infinite;
-    animation: mons-move 5s linear infinite;
-*/
 }
 
 .bball:hover {
@@ -538,11 +535,21 @@ a {
 
 .btn-team {
     height: 3rem;
-    float: right;
     border: none;
     background-image: url(../images/sky2.jpg);
     background-color: transparent;
     color: white;
+}
+
+.btn-top {
+    transition: all 0s ease-in 0s;
+    height: 4rem;
+    opacity: 0.3;
+    transform: rotate(180deg);
+}
+
+.btn-top:hover {
+    opacity: 1;
 }
 
 
