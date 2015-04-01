@@ -89,7 +89,8 @@ $btnTeam.on('click', function() {
 // scrolling effects
 
 $('.panel').localScroll();
-$('.bball').localScroll();
+$('.go-down').localScroll();
+$('.go-up').localScroll();
 
 
 

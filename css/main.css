@@ -542,14 +542,18 @@ a {
 }
 
 .btn-top {
-    transition: all 0s ease-in 0s;
+    position: relative;
+    display: block;
     height: 4rem;
     opacity: 0.3;
     transform: rotate(180deg);
+    background-image: url(../images/basketball-arrow.svg);
+    background-repeat: no-repeat;
 }
 
 .btn-top:hover {
     opacity: 1;
+    transition: all 1s linear;
 }
 
 

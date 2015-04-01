@@ -12,7 +12,7 @@
 <body class="">
     
     
-    <div class="grid gutter-1-2 header">
+    <div class="grid gutter-1-2 header go-up" id="top">
         <h1 class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2 gutter yotta title">Welcome To The Space Jam!</h1>
         <button class="btn-space-jam unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2 gutter-2"></button>
     </div>
@@ -46,8 +46,8 @@
             <img class="lolabunny-banner" src="images/lola-bunny.svg" alt="Lola Bunny">
             <img class="tas-banner" src="images/tas.svg" alt="Tasmanian Devil">
             
-                <div class="bball">
-                     <a href="#btnbanner"></a>
+                <div class="go-down">
+                     <a href="#btnbanner" class="bball"></a>
                 </div>
         
         </div>
@@ -55,7 +55,7 @@
     
     <div class="grid">
         
-        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-1-2 text-center">
+        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-1-2 text-center" id="btnbanner">
             <a href="#mons" class="button-two micro text-center">Tune Squad</a>
         </div>
         
@@ -64,7 +64,7 @@
         </div>
     </div>
     
-    <div class="grid gutter island text-center" id="btnbanner">
+    <div class="grid gutter island text-center">
         <h1 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">Switch The Team Rotating !</h1>
     </div>
     
@@ -193,15 +193,14 @@
     </div>
     
     
-    <footer class="">
+    <footer class="grid">
     
-        <div class="text-center">
-            <a href="#top">
-                <img class="btn-top" src="images/basketball-arrow.svg" alt="Ball goes up">
-            </a>
+        <div class="unit go-up">
+            <a href="#top" class="btn-top">
         </div>
     
     </footer>
+    
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
