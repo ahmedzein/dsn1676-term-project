@@ -556,6 +556,7 @@ a {
     display: block;
     height: 4rem;
     opacity: 0.3;
+    -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     background-image: url(../images/basketball-arrow.svg);
     background-repeat: no-repeat;
