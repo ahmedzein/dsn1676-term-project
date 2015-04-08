@@ -567,6 +567,13 @@ a {
     transition: all 1s linear;
 }
 
+.bugs-dribble {
+    width: 300px;
+}
+
+#bugs_1_ {
+    transform: rotate(30deg);
+}
 
 
 @media only screen and (min-width: 25em) {
