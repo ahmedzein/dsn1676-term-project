@@ -571,8 +571,25 @@ a {
     width: 300px;
 }
 
-#bugs_1_ {
-    transform: rotate(30deg);
+
+.bugs-dribble:hover #bugs_1_ {
+    transform: translateX(30px);
+}
+
+
+.bugs-dribble:hover #ball_1_ {
+    animation: dribble 1s linear infinite;
+}
+
+@keyframes dribble {
+    
+    0% {
+        transform: translateY(0px)
+    }
+    
+    100% {
+        transform: translateY(80px)
+    }
 }
 
 
