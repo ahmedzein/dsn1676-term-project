@@ -572,13 +572,27 @@ a {
 }
 
 
+/*
 .bugs-dribble:hover #bugs_1_ {
     transform: translateX(30px);
 }
+*/
 
 
 .bugs-dribble:hover #ball_1_ {
+    -webkit-animation: dribble 1s linear infinite;
     animation: dribble 1s linear infinite;
+}
+
+@-webkit-keyframes dribble {
+    
+    0% {
+        -webkit-transform: translateY(0px)
+    }
+    
+    100% {
+        -webkit-transform: translateY(80px)
+    }
 }
 
 @keyframes dribble {
