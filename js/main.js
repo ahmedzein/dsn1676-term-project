@@ -15,11 +15,11 @@ var $lola =$('.lola');
 var $daffy =$('.daffy');
 var $tas =$('.tas');
 
-var $jordanStat =$('.jordan-stat')
-var $bugsStat =$('.bugs-stat')
-var $lolaStat =$('.lola-stat')
-var $daffyStat =$('.daffy-stat')
-var $tasStat =$('.tas-stat')
+var $jordanStat =$('.jordan-stat');
+var $bugsStat =$('.bugs-stat');
+var $lolaStat =$('.lola-stat');
+var $daffyStat =$('.daffy-stat');
+var $tasStat =$('.tas-stat');
 
 $jordan.on('click', function () {
     $jordanStat.animate({height: 'toggle'});
@@ -49,11 +49,11 @@ var $null =$('.null');
 var $zilch =$('.zilch');
 var $void =$('.void');
 
-var $bupkusStat =$('.bupkus-stat')
-var $nadaStat =$('.nada-stat')
-var $nullStat =$('.null-stat')
-var $zilchStat =$('.zilch-stat')
-var $voidStat =$('.void-stat')
+var $bupkusStat =$('.bupkus-stat');
+var $nadaStat =$('.nada-stat');
+var $nullStat =$('.null-stat');
+var $zilchStat =$('.zilch-stat');
+var $voidStat =$('.void-stat');
 
 $bupkus.on('click', function () {
     $bupkusStat.animate({height: 'toggle'});
@@ -92,6 +92,14 @@ $('.panel').localScroll();
 $('.go-down').localScroll();
 $('.go-up').localScroll();
 
+
+// bugs dribbling basketball
+
+var $bugsDribble =$('.bugs-dribble');
+
+$bugsDribble.waypoint (function (){
+    $bugsDribble.toggleClass('js-dribble');
+});
 
 
 

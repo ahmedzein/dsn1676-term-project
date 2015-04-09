@@ -517,6 +517,7 @@ a {
     left: 0;
     top: 0;
     width: 100%;
+    height: 250px;
     pointer-events: none;
 }
 
@@ -543,6 +544,10 @@ a {
 .teams-wrapper {
 }
 
+footer {
+    background-color: black;
+}
+
 .btn-team {
     height: 3rem;
     border: none;
@@ -555,6 +560,7 @@ a {
     position: relative;
     display: block;
     height: 4rem;
+    width: 4rem;
     opacity: 0.3;
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
@@ -572,6 +578,7 @@ a {
 }
 
 
+
 /*
 .bugs-dribble:hover #bugs_1_ {
     transform: translateX(30px);
@@ -579,7 +586,7 @@ a {
 */
 
 
-.bugs-dribble:hover #ball_1_ {
+.bugs-dribble #ball_1_ {
     -webkit-animation: dribble 1s linear infinite;
     animation: dribble 1s linear infinite;
 }
@@ -604,6 +611,10 @@ a {
     100% {
         transform: translateY(80px)
     }
+}
+
+.js-dribble {
+    
 }
 
 
