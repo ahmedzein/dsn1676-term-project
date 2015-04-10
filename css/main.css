@@ -19,8 +19,8 @@ html {
 }
 
 .btn-space-jam {
-    height: 8em;
-    width: 8em;
+    height: 6em;
+    width: 6em;
     left: 30%;
     background-image: url(../images/space-jam.svg);
     background-repeat: no-repeat;

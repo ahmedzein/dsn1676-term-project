@@ -1,1 +1,151 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.7 327" enable-background="new 0 0 562.7 327"><style type="text/css">.st0{fill:none;} .st1{fill:#C49A6C;} .st2{fill:#A97C50;} .st3{fill:url(#New_Pattern);stroke:#FFFFFF;stroke-miterlimit:10;} .st4{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;} .st5{fill:none;stroke:#FFFFFF;stroke-width:0.9848;stroke-miterlimit:10;} .st6{fill:none;stroke:#FFFFFF;stroke-width:0.9848;stroke-miterlimit:10;stroke-dasharray:12;}</style><pattern x="-86.9" y="-131.7" width="92.5" height="69.7" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="0 -69.7 92.5 69.7" overflow="visible"><path class="st0" d="M0-69.7h92.5v69.7h-92.5z"/><path class="st1" d="M92.5-9.3h-92.5v-4.6h92.5z"/><path class="st2" d="M92.5-4.6h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5 0h-92.5v-4.7h92.5zM92.5-23.2h-92.5v-4.7h92.5z"/><path class="st2" d="M92.5-18.5h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5-13.9h-92.5v-4.7h92.5zM92.5-37.2h-92.5v-4.6h92.5z"/><path class="st2" d="M92.5-32.5h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5-27.9h-92.5v-4.7h92.5zM92.5-51.1h-92.5v-4.7h92.5z"/><path class="st2" d="M92.5-46.4h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5-41.8h-92.5v-4.7h92.5zM92.5-65.1h-92.5v-4.6h92.5z"/><path class="st2" d="M92.5-60.4h-92.5v-4.7h92.5z"/><path class="st1" d="M92.5-55.8h-92.5v-4.7h92.5z"/></pattern><path class="st3" d="M.5.5h561.4v326h-561.4z"/><path class="st4" d="M.5 29.8h83.3s92 39.3 92 134l-92 136h-83.3M561.9 29.8h-83.3s-92 39.3-92 134l92 136h83.3"/><path class="st4" d="M.5 111.8h113.3v104h-113.3zM15.3 146.1v36.7M19.1 163.8h-3.8"/><circle class="st4" cx="24.3" cy="163.8" r="5.3"/><path class="st5" d="M113.8 124.1c22.1 0 40 17.9 40 40s-17.9 40-40 40"/><path class="st6" d="M113.8 204.1c-22.1 0-40-17.9-40-40s17.9-40 40-40"/><path class="st4" d="M448.9 111.8h113.3v104h-113.3zM547.4 146.1v36.7M543.7 163.8h3.7"/><circle class="st4" cx="538.5" cy="163.8" r="5.3"/><path class="st5" d="M448.9 124.1c-22.1 0-40 17.9-40 40s17.9 40 40 40"/><path class="st6" d="M448.9 204.1c22.1 0 40-17.9 40-40s-17.9-40-40-40"/><path class="st5" d="M281.5 326.5v-326"/><circle class="st5" cx="280.8" cy="164.1" r="10.8"/><circle class="st5" cx="280.8" cy="164.1" r="38.2"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 562.7 327" enable-background="new 0 0 562.7 327" xml:space="preserve">
+<pattern  x="-86.9" y="-131.7" width="92.5" height="69.7" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="92.5 -70 92.5 69.7" overflow="visible">
+	<g>
+		<polygon fill="none" points="92.5,-70 185,-70 185,-0.3 92.5,-0.3 		"/>
+		<g>
+			<polygon fill="#C49A6C" points="277.5,-3.6 183.6,-3.6 183.6,-7.1 277.5,-7.1 			"/>
+			<polygon fill="#B08153" points="277.5,-7.1 183.6,-7.1 183.6,-10.7 277.5,-10.7 			"/>
+			<polygon fill="#B08153" points="277.5,0 183,0 183,-3.6 277.5,-3.6 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="185.9,-10.6 92.5,-10.6 92.5,-14.2 185.9,-14.2 			"/>
+			<polygon fill="#C49A6C" points="185,-3.6 91.1,-3.6 91.1,-7.1 185,-7.1 			"/>
+			<polygon fill="#B08153" points="185,-7.1 91.1,-7.1 91.1,-10.7 185,-10.7 			"/>
+			<polygon fill="#B08153" points="185,0 90.5,0 90.5,-3.6 185,-3.6 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="93.4,-10.6 0,-10.6 0,-14.2 93.4,-14.2 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="277.5,-17.5 183.6,-17.5 183.6,-21.1 277.5,-21.1 			"/>
+			<polygon fill="#B08153" points="277.5,-21.1 183.6,-21.1 183.6,-24.6 277.5,-24.6 			"/>
+			<polygon fill="#B08153" points="277.5,-13.9 183,-13.9 183,-17.5 277.5,-17.5 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="185.9,-24.6 92.5,-24.6 92.5,-28.2 185.9,-28.2 			"/>
+			<polygon fill="#C49A6C" points="185,-17.5 91.1,-17.5 91.1,-21.1 185,-21.1 			"/>
+			<polygon fill="#B08153" points="185,-21.1 91.1,-21.1 91.1,-24.6 185,-24.6 			"/>
+			<polygon fill="#B08153" points="185,-13.9 90.5,-13.9 90.5,-17.5 185,-17.5 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="93.4,-24.6 0,-24.6 0,-28.2 93.4,-28.2 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="277.5,-31.5 183.6,-31.5 183.6,-35 277.5,-35 			"/>
+			<polygon fill="#B08153" points="277.5,-35 183.6,-35 183.6,-38.6 277.5,-38.6 			"/>
+			<polygon fill="#B08153" points="277.5,-27.9 183,-27.9 183,-31.5 277.5,-31.5 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="185.9,-38.5 92.5,-38.5 92.5,-42.1 185.9,-42.1 			"/>
+			<polygon fill="#C49A6C" points="185,-31.5 91.1,-31.5 91.1,-35 185,-35 			"/>
+			<polygon fill="#B08153" points="185,-35 91.1,-35 91.1,-38.6 185,-38.6 			"/>
+			<polygon fill="#B08153" points="185,-27.9 90.5,-27.9 90.5,-31.5 185,-31.5 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="93.4,-38.5 0,-38.5 0,-42.1 93.4,-42.1 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="277.5,-45.4 183.6,-45.4 183.6,-49 277.5,-49 			"/>
+			<polygon fill="#B08153" points="277.5,-48.9 183.6,-48.9 183.6,-52.5 277.5,-52.5 			"/>
+			<polygon fill="#B08153" points="277.5,-41.8 183,-41.8 183,-45.4 277.5,-45.4 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="185.9,-52.5 92.5,-52.5 92.5,-56.1 185.9,-56.1 			"/>
+			<polygon fill="#C49A6C" points="185,-45.4 91.1,-45.4 91.1,-49 185,-49 			"/>
+			<polygon fill="#B08153" points="185,-48.9 91.1,-48.9 91.1,-52.5 185,-52.5 			"/>
+			<polygon fill="#B08153" points="185,-41.8 90.5,-41.8 90.5,-45.4 185,-45.4 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="93.4,-52.5 0,-52.5 0,-56.1 93.4,-56.1 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="277.5,-59.4 183.6,-59.4 183.6,-62.9 277.5,-62.9 			"/>
+			<polygon fill="#B08153" points="277.5,-62.9 183.6,-62.9 183.6,-66.5 277.5,-66.5 			"/>
+			<polygon fill="#B08153" points="277.5,-55.8 183,-55.8 183,-59.4 277.5,-59.4 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="185.9,-66.4 92.5,-66.4 92.5,-70 185.9,-70 			"/>
+			<polygon fill="#C49A6C" points="185,-59.4 91.1,-59.4 91.1,-62.9 185,-62.9 			"/>
+			<polygon fill="#B08153" points="185,-62.9 91.1,-62.9 91.1,-66.5 185,-66.5 			"/>
+			<polygon fill="#B08153" points="185,-55.8 90.5,-55.8 90.5,-59.4 185,-59.4 			"/>
+		</g>
+		<g>
+			<polygon fill="#C49A6C" points="93.4,-66.4 0,-66.4 0,-70 93.4,-70 			"/>
+		</g>
+		<g>
+			<polygon fill="#B08153" points="277.5,-69.7 183,-69.7 183,-73.3 277.5,-73.3 			"/>
+		</g>
+		<g>
+			<polygon fill="#B08153" points="185,-69.7 90.5,-69.7 90.5,-73.3 185,-73.3 			"/>
+		</g>
+	</g>
+</pattern>
+<rect x="0" y="0" fill="url(#New_Pattern)" width="562.7" height="327"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="0.9856" stroke-miterlimit="10" x1="283.1" y1="327" x2="283.1" y2="0"/>
+<radialGradient id="SVGID_1_" cx="283.1219" cy="164.125" r="38.25" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#39B54A"/>
+	<stop  offset="0.5321" style="stop-color:#009444"/>
+	<stop  offset="1" style="stop-color:#006838"/>
+</radialGradient>
+<circle fill="url(#SVGID_1_)" stroke="#FFFFFF" stroke-miterlimit="10" cx="283.1" cy="164.1" r="38.2"/>
+<radialGradient id="SVGID_2_" cx="283.1219" cy="164.125" r="30" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#39B54A"/>
+	<stop  offset="0.5321" style="stop-color:#009444"/>
+	<stop  offset="1" style="stop-color:#006838"/>
+</radialGradient>
+<circle fill="url(#SVGID_2_)" cx="283.1" cy="164.1" r="30"/>
+<radialGradient id="SVGID_3_" cx="283.1219" cy="164.125" r="19.6667" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#39B54A"/>
+	<stop  offset="0.5321" style="stop-color:#009444"/>
+	<stop  offset="1" style="stop-color:#006838"/>
+</radialGradient>
+<circle fill="url(#SVGID_3_)" cx="283.1" cy="164.1" r="19.7"/>
+<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M0,29.8h83.8c0,0,92,39.3,92,134s-92,136-92,136H0"/>
+<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M561.9,29.8h-83.3c0,0-92,39.3-92,134s92,136,92,136h83.3"/>
+<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="15.3" y1="146.1" x2="15.3" y2="182.8"/>
+<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="19.1" y1="163.8" x2="15.3" y2="163.8"/>
+<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="24.3" cy="163.8" r="5.3"/>
+<circle fill="#BE1E2D" stroke="#FFFFFF" stroke-width="0.9848" stroke-miterlimit="10" cx="113.8" cy="164.1" r="40"/>
+<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="547.4" y1="146.1" x2="547.4" y2="182.8"/>
+<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="543.7" y1="163.8" x2="547.4" y2="163.8"/>
+<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="538.5" cy="163.8" r="5.3"/>
+<circle fill="#BE1E2D" cx="283.1" cy="164.1" r="10.8"/>
+<rect x="0.5" y="204.1" fill="#BE1E2D" stroke="#FFFFFF" stroke-width="0.9848" stroke-miterlimit="10" width="113.3" height="11.7"/>
+<rect x="0.5" y="111.8" fill="#BE1E2D" stroke="#FFFFFF" stroke-width="0.9848" stroke-miterlimit="10" width="113.3" height="11.7"/>
+<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="113.8" y1="111.8" x2="113.8" y2="215.8"/>
+<rect x="28.4" y="113.6" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="56" y="113.6" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="87" y="113.6" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="28.4" y="205.9" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="56" y="205.9" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="87" y="205.9" fill="#FFFFFF" width="2.2" height="8.2"/>
+<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="547.9" y1="146.1" x2="547.9" y2="182.8"/>
+<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="544.2" y1="163.8" x2="547.9" y2="163.8"/>
+<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="539" cy="163.8" r="5.3"/>
+<circle fill="#BE1E2D" stroke="#FFFFFF" stroke-width="0.9848" stroke-miterlimit="10" cx="449.4" cy="164.1" r="40"/>
+<rect x="449.4" y="204.1" fill="#BE1E2D" stroke="#FFFFFF" stroke-width="0.9848" stroke-miterlimit="10" width="113.3" height="11.7"/>
+<rect x="449.4" y="111.8" fill="#BE1E2D" stroke="#FFFFFF" stroke-width="0.9848" stroke-miterlimit="10" width="113.3" height="11.7"/>
+<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="449.4" y1="111.8" x2="449.4" y2="215.8"/>
+<rect x="532.6" y="113.6" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="505" y="113.6" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="474" y="113.6" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="532.6" y="205.9" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="505" y="205.9" fill="#FFFFFF" width="2.2" height="8.2"/>
+<rect x="474" y="205.9" fill="#FFFFFF" width="2.2" height="8.2"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
