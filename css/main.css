@@ -577,19 +577,12 @@ footer {
     width: 300px;
 }
 
-
-
 /*
-.bugs-dribble:hover #bugs_1_ {
-    transform: translateX(30px);
-}
-*/
-
-
 .bugs-dribble #ball_1_ {
     -webkit-animation: dribble 1s linear infinite;
     animation: dribble 1s linear infinite;
 }
+*/
 
 @-webkit-keyframes dribble {
     
@@ -597,8 +590,12 @@ footer {
         -webkit-transform: translateY(0px)
     }
     
-    100% {
+    50% {
         -webkit-transform: translateY(80px)
+    }
+    
+    100% {
+        -webkit-transform: translateY(0px)
     }
 }
 
@@ -608,13 +605,18 @@ footer {
         transform: translateY(0px)
     }
     
-    100% {
+     50% {
         transform: translateY(80px)
+    }
+    
+    100% {
+        transform: translateY(0px)
     }
 }
 
-.js-dribble {
-    
+.js-bugs-dribble #ball_1_ {
+    -webkit-animation: dribble 1s linear infinite;
+    animation: dribble 1s linear infinite;
 }
 
 

@@ -98,8 +98,8 @@ $('.go-up').localScroll();
 var $bugsDribble =$('.bugs-dribble');
 
 $bugsDribble.waypoint (function (){
-    $bugsDribble.toggleClass('js-dribble');
-});
+    $bugsDribble.toggleClass('js-bugs-dribble');
+}, {offset:'75%'});
 
 
 
