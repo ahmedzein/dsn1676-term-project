@@ -625,8 +625,8 @@ footer {
     position: absolute;
     top: -150px;
     left: 50%;
-    -webkit-transform: translateX(-50%) scale(.5);
-    transform: translateX(-50%) scale(.5);
+    -webkit-transform: translateX(-50%) scale(.4);
+    transform: translateX(-50%) scale(.4);
 }
     .nav li {
         display: inline-block;
