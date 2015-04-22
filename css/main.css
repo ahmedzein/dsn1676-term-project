@@ -534,7 +534,7 @@ a {
 
 .team-lineup-inner {
     width: 200%;
-    transition: all 2s linear;
+    transition: all 1s linear;
 }
 
 .js-team-lineup-inner {
